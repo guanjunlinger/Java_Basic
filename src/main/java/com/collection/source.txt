@@ -1,0 +1,89 @@
+1.ArrayList
+
+DEFAULT_CAPACITY = 10
+newCapacity = oldCapacity + (oldCapacity >> 1)
+
+
+
+
+2.HashMap
+
+DEFAULT_INITIAL_CAPACITY = 1 << 4
+DEFAULT_LOAD_FACTOR = 0.75f
+
+TREEIFY_THRESHOLD = 8
+UNTREEIFY_THRESHOLD = 6
+MIN_TREEIFY_CAPACITY = 64
+
+CAPACITY=2^n ->  m%CAPACITY=m&(CAPACITY-1)
+
+resize的优化:
+if(key.hashCode&oldCapacity==1)
+    newPosition=oldPosition+oldCapacity
+else
+    newPosition=oldPosition
+
+TreeNode的查找规则:
+  1.首先比较HashCode,若相等,转2
+  2.如果key是可比较的,则运行比较方法,否则转3
+  3.直接利用System.identityHashCode返回的HashCode比较
+
+
+
+
+
+3.LinkedHashMap
+
+Entry<K,V> extends HashMap.Node 增加双向指针信息
+支持access-order和insertion-order
+
+
+
+1.CopyOnWriteArrayList
+   默认数组长度为0
+   写操作加ReentrantLock,首先复制旧数组,然后修改新数组,用新数组代理旧数组
+   array属性用volatile保证可见性
+   addIfAbsent首先使用snapshot判断存在性,最后执行更新逻辑
+
+
+2.CopyOnWriteArraySet
+  封装CopyOnWriteArrayList管理数据
+
+
+3.ConcurrentHashMap
+
+    HASH_BITS = 0x7fffffff 引入掩码减少碰撞
+    volatile int sizeCtl   哈希表初始化和扩容标志
+    DEFAULT_CAPACITY = 16
+    LOAD_FACTOR = 0.75f
+
+    volatile V val;
+    volatile Node<K,V> next;
+
+    volatile Node<K,V>[] table  保存hash表
+    volatile Node<K,V>[] nextTable 扩容后的Hash表
+
+   
+
+    初始化:CAS设置sizeCtl=-1成功之后,启动初始化过程
+    put操作,表头存在,则锁住表头,插入到末尾;否则CAS设置表头节点
+    remove操作:表头不存在直接返回;否则锁表头,删除节点
+    computeIfAbsent操作:表头不存在,锁ReservationNode局部变量,CAS设置表头为ReservationNode临时节点;否则直接锁住表头
+
+    特点:锁表头需要进一步确认表头是否发生变化
+    获取和设置表头均需要Unsafe类提供Volatile语义
+    将哈希扩容过程分散到所有修改线程,提升效率
+
+
+     
+
+
+
+
+
+
+
+
+
+
+

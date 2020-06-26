@@ -1,0 +1,49 @@
+COUNT_BITS = Integer.SIZE - 3
+CAPACITY   = (1 << COUNT_BITS) - 1   最大工作线程数
+
+private static final int RUNNING    = -1 << COUNT_BITS;
+private static final int SHUTDOWN   =  0 << COUNT_BITS;
+private static final int STOP       =  1 << COUNT_BITS;
+private static final int TIDYING    =  2 << COUNT_BITS;
+private static final int TERMINATED =  3 << COUNT_BITS;
+
+private static int runStateOf(int c)     { return c & ~CAPACITY; }
+private static int workerCountOf(int c)  { return c & CAPACITY; }
+private static int ctlOf(int rs, int wc) { return rs | wc; }
+
+
+final class Worker
+        extends AbstractQueuedSynchronizer
+        implements Runnable             Worker代表不可重入的排他锁
+
+private final HashSet<Worker> workers = new HashSet<Worker>()    工作线程的集合,由ReentrantLock保护
+
+
+execute:
+     1.如果工作线程小于核心线程数,则addWorker(firstTask,true)
+     2.如果任务入workQueue成功,则重新检查线程池状态,若线程池不是运行状态,则移除任务,回调RejectedExecutionHandler逻辑
+     3.如果入队失败,则addWorker(command, false),失败则直接拒绝任务
+
+addWorker:
+     1.重新检查线程池状态,如果非运行状态,则直接返回false
+     2.如果超过指定线程数,则直接返回false
+     3.CAS方式增加工作线程数,创建Worker线程并添加到workers集合,屏蔽线程中断,运行runWorker;若启动失败,则回调addWorkerFailed逻辑
+
+runWorker:
+     1.getTask()
+     2.获取Worker锁,检测线程池状态,如果线程池处于STOP状态,则中断线程,否则执行任务
+     3.如果发生异常,则remove worker,更新计数器
+
+
+
+getTask:
+     1.如果线程池已经停止,则直接返回null
+     2.如果工作线程大于核心线程且workQueue为空,则直接赶回null
+     3.阻塞方式从workQueue获取任务,或者有限等待keepAliveTime nanoseconds获取任务
+
+
+RejectedExecutionHandler:
+      CallerRunsPolicy
+      AbortPolicy
+      DiscardPolicy
+      DiscardOldestPolicy

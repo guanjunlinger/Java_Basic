@@ -1,0 +1,8 @@
+<suite name="thread" thread-count="2" parallel="methods">
+    <test name="test">
+        <classes>
+            <class name="collection.concurrent.CopyOnWriteArrayListTest"/>
+        </classes>
+    </test>
+
+</suite>

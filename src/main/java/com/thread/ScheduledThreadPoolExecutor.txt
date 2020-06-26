@@ -1,0 +1,28 @@
+private static final AtomicLong sequencer = new AtomicLong()   ScheduledFutureTask任务的唯一序列号
+
+
+schedule:包装任务接口,执行delayedExecute逻辑
+
+delayedExecute:
+       1.如果线程池关闭,则直接拒绝任务
+       2.将任务放入无界阻塞队列
+       3.如果线程池关闭,则移除任务,中断任务执行线程;否则转4
+       4.如果工作线程小于核心线程,则addWorker(null, true);如果工作线程为0,则addWorker(null, false);
+
+
+
+
+ScheduledFutureTask:
+    private long time;  task执行时间
+    private final long period;task执行的周期
+
+
+DelayedWorkQueue:
+     private static final int INITIAL_CAPACITY = 16;
+     private RunnableScheduledFuture<?>[] queue = new RunnableScheduledFuture<?>[INITIAL_CAPACITY];
+     维持一个小根堆数据结构,按照执行时间排序
+
+     private Thread leader = null; 只允许Leader线程获取队列首节点的任务
+
+
+

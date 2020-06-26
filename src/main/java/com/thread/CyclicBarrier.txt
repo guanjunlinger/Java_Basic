@@ -1,0 +1,7 @@
+count记录正在等待的线程数
+await:利用ReentrantLock和Condition实现同步阻塞队列模式
+缺陷:同步工具类
+
+
+
+
