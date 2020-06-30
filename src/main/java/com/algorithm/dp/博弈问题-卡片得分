@@ -8,7 +8,7 @@
 
 朴素思路:
 dp[i][j][k]:在i-j张卡片拿k张的最大点数
-dp[i][j][k] = max(cardPoints[i]+dp[i+1][j][k-1],cardPoints[j]+dp[i][j-1][k-1])
+dp[i][j][k] = max(sum(cardPoints[i],,,cardPoints[j])-dp[i+1][j][k-1],sum(cardPoints[i],,,cardPoints[j])-dp[i][j-1][k-1])
 
 转换思路:首尾拿k张最大,等价于取连续的n-k张最小
 dp[i]:以i结尾的n-k张卡片得分
