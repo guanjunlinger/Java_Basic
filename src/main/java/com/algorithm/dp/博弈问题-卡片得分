@@ -16,3 +16,6 @@ dp[i] = sum[i] - sum[i+k-n]
 
 
 
+
+
+
