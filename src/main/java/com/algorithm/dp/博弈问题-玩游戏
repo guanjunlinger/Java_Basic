@@ -20,7 +20,7 @@ dp[i] = 1   if dp[i-j]==0 && i%j==0
 
 
 
-我们正在玩一个猜数游戏，游戏规则如下：
+猜数游戏，游戏规则如下：
 
 我从 1 到 n 之间选择一个数字，你来猜我选了哪个数字。
 
@@ -32,10 +32,29 @@ dp[i] = 1   if dp[i-j]==0 && i%j==0
 dp[i][j]:在i-j之间猜测保证赢需要的最小现金
 dp[i][j] =  max(k+dp[i][k-1],k+dp[k+1][j])   i<=k<=j
 
+我能赢游戏:
+给定一个整数maxChoosableInteger整数池中可选择的最大数,不允许重复选择）和另一个整数 desiredTotal（累计和），判断先出手的玩家是否能稳赢（假设两位玩家游戏时都表现最佳）？
 
-给定一个整数 maxChoosableInteger （整数池中可选择的最大数,不允许重复选择）和另一个整数 desiredTotal（累计和），判断先出手的玩家是否能稳赢（假设两位玩家游戏时都表现最佳）？
+你可以假设 maxChoosableInteger不会大于20， desiredTotal不会大于300。
 
-你可以假设 maxChoosableInteger 不会大于 20， desiredTotal 不会大于 300。
+/**
+dp=new Boolean[1<<21]  状态对应的最优解
+max：当前能取的最大值
+total:当前查多少分到游戏结束
+state:已选择数字的状态
+*/
+public boolean dfs(int max,int total,int state){
+    if(total<=0) return false;
+    if(dp[state]!=null){
+        return dp[state];
+    }
+    for (int i=max;i>=1;i--) {
+        if((state>>i&1)==0 && !dfs(max,total-i,state|(1<<i))){
+            return dp[state]=true;
+        }
+    }
+    return dp[state]=false;
+}
 
 
 
