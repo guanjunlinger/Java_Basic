@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0_ALPHA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/dp.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/dp.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/algorithm/sort/SortTest$Country.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/algorithm/sort/SortTest$CountryData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/algorithm/sort/SortTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/algorithm/tree/BinarySearchTreeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/algorithm/tree/BinaryTreeTraversalTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/generic/GenericTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/channel/FileChannelTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/cloneable/CloneableTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/externalizable/CustomExternalizableTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/io/serializable/SerializableTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/CustomFinalizeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/EnumTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/Instantiation/MyObject.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/Instantiation/ObjenesisTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/ReferenceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/ThreadTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/bytecode/CglibTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/language/bytecode/JdkProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/methodhandle/MethodHandleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/multithread/lock/LockTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/nio/CustomFileVisitor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/nio/NIOTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/string/StringTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/xpath/XPathTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/博弈问题-玩游戏" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/博弈问题-玩游戏" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/博弈问题-卡片得分" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/极大极小算法-卡片得分" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/博弈问题-取石子" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/极大极小算法-取石子" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +102,8 @@
       <workItem from="1593475579257" duration="1423000" />
       <workItem from="1593528398621" duration="2770000" />
       <workItem from="1593569590803" duration="23000" />
-      <workItem from="1593654283758" duration="1083000" />
+      <workItem from="1593654283758" duration="1102000" />
+      <workItem from="1593740392905" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -198,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593569096486</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="博弈与极大极小算法">
+      <created>1593655598242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593655598242</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -241,6 +218,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="博弈与极大极小算法" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593655598109">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655598109" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593655604954">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655604954" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593654988427">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
