@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/博弈问题-卡片得分" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/极大极小算法-卡片得分" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/博弈问题-取石子" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/极大极小算法-取石子" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/状态压缩dp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/状态压缩dp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593655598242</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="状态压缩dp">
+      <created>1593846637371</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593846637371</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -215,12 +221,18 @@
     <MESSAGE value="取石子游戏1" />
     <MESSAGE value="取石子游戏2" />
     <MESSAGE value="博弈与极大极小算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="博弈与极大极小算法" />
+    <MESSAGE value="状态压缩dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="状态压缩dp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593655598109">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593846489772">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593846489772" />
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593846637278">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593846637278" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655598109" />
     <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593655604954">
       <screen x="0" y="0" width="1920" height="1200" />

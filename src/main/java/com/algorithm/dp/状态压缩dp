@@ -4,7 +4,7 @@
 你可以假设 maxChoosableInteger不会大于20， desiredTotal不会大于300。
 
 
-dp=new Boolean[1<<21]  游戏结束时对应状态的最优解
+dp=new Boolean[1<<20]  游戏结束时对应状态的最优解
 max：当前能取的最大值
 total:当前查多少分到游戏结束
 state:已选择数字的状态
