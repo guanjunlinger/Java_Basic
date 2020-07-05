@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/区间动态规划" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/概率论" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/树形dp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/转化与划归" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593847244411</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="区间dp">
+      <created>1593931963943</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593931963943</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -237,27 +244,28 @@
     <MESSAGE value="取石子游戏2" />
     <MESSAGE value="博弈与极大极小算法" />
     <MESSAGE value="状态压缩dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="状态压缩dp" />
+    <MESSAGE value="区间dp" />
+    <option name="LAST_COMMIT_MESSAGE" value="区间dp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593916816720">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593937543979">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593916816720" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593847244330">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593937543979" />
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593931963149">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593847244330" />
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593931963149" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655598109" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593847250604">
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593931970366">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1593847250604" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1593931970366" />
     <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655604954" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593848886320">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593938818185">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1593848886319" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1593938818185" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593654988427" />
   </component>
   <component name="masterDetails">
