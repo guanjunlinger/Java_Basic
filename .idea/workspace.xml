@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/区间动态规划" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/转化与划归" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/转化与划归" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593991852343</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="区间dp">
+      <created>1593992548338</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593992548338</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -257,10 +265,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593937543979" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593991851548">
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593992548228">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593991851548" />
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593992548228" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655598109" />
     <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593931970366">
       <screen x="0" y="0" width="1920" height="1200" />
