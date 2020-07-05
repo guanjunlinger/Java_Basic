@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/区间动态规划" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/概率论" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/状态压缩dp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/状态压缩dp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593846637371</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="状态压缩dp">
+      <created>1593847189336</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593847189336</updated>
+    </task>
+    <task id="LOCAL-00013" summary="状态压缩dp">
+      <created>1593847244411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593847244411</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -225,22 +240,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="状态压缩dp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593846489772">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593916816720">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593846489772" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593846637278">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593916816720" />
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1593847244330">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593846637278" />
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1593847244330" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655598109" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593655604954">
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1593847250604">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1593847250604" />
     <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593655604954" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593654988427">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593848886320">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1593848886319" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593654988427" />
   </component>
   <component name="masterDetails">
