@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +33,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -106,7 +108,8 @@
       <workItem from="1594079959679" duration="821000" />
       <workItem from="1594167080565" duration="930000" />
       <workItem from="1594179031401" duration="1357000" />
-      <workItem from="1594258663828" duration="1213000" />
+      <workItem from="1594258663828" duration="1230000" />
+      <workItem from="1594346285592" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -248,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594173792036</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="区间dp">
+      <created>1594260150959</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1594260150959</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -293,41 +303,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="区间dp" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="448" y="181" key="#Project_Structure/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594260153767" />
     <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593937543979">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593937543979" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1594173791927">
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1594260150859">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1594168110487" />
-    <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594173791927" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1594173797373">
+    <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594260150859" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1594260158461">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1594168119173" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594173797373" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594260158461" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593938818185">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1593938818185" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593654988427" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />
