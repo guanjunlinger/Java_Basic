@@ -20,8 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/bt/子集和" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dac/分治" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/树形dp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/转化与划归" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/转化与划归" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +133,7 @@
       <workItem from="1594179031401" duration="1357000" />
       <workItem from="1594258663828" duration="1230000" />
       <workItem from="1594346285592" duration="765000" />
-      <workItem from="1594436860261" duration="314000" />
+      <workItem from="1594436860261" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -285,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594346842148</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="弗洛伊德的动态规划思想">
+      <created>1594456463396</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1594456463396</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -364,21 +375,22 @@
     <MESSAGE value="博弈与极大极小算法" />
     <MESSAGE value="状态压缩dp" />
     <MESSAGE value="区间dp" />
-    <option name="LAST_COMMIT_MESSAGE" value="区间dp" />
+    <MESSAGE value="弗洛伊德的动态规划思想" />
+    <option name="LAST_COMMIT_MESSAGE" value="弗洛伊德的动态规划思想" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="448" y="181" key="#Project_Structure/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594260153767" />
-    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593937543979">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594484556179">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1593937543979" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1594346842035">
+    <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1594484556179" />
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1594456463310">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1594168110487" />
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1594456463310" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594346842035" />
     <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog" timestamp="1594347344632">
       <screen x="0" y="0" width="1920" height="1200" />
