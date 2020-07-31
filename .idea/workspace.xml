@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/ThreadLocalRandom.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/algorithm/dp/dp.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +44,8 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -56,6 +58,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/thread" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -129,7 +136,11 @@
       <workItem from="1594179031401" duration="1357000" />
       <workItem from="1594258663828" duration="1230000" />
       <workItem from="1594346285592" duration="765000" />
-      <workItem from="1594436860261" duration="4395000" />
+      <workItem from="1594436860261" duration="4496000" />
+      <workItem from="1594606457542" duration="21000" />
+      <workItem from="1596085354883" duration="504000" />
+      <workItem from="1596120139777" duration="832000" />
+      <workItem from="1596157715584" duration="3313000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -306,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594487471416</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="回溯搜索">
+      <created>1594533364470</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1594533364470</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -387,7 +405,8 @@
     <MESSAGE value="区间dp" />
     <MESSAGE value="弗洛伊德的动态规划思想" />
     <MESSAGE value="分治法" />
-    <option name="LAST_COMMIT_MESSAGE" value="分治法" />
+    <MESSAGE value="回溯搜索" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯搜索" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">
@@ -398,24 +417,24 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1594484556179" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1594487471333">
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1594533364387">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1594487471333" />
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1594533364387" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594346842035" />
     <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog" timestamp="1594347344632">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594347344632" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1594486275039">
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1594606476744">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1594486275039" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594346847738" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1593938818185">
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1594533447658" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594606476744" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1596161677972">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1593938818185" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1596161677972" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593654988427" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
