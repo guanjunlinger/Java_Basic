@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thread/Striped64.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <workItem from="1594606457542" duration="21000" />
       <workItem from="1596085354883" duration="504000" />
       <workItem from="1596120139777" duration="832000" />
-      <workItem from="1596157715584" duration="8777000" />
+      <workItem from="1596157715584" duration="10053000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596169093670</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="并发计数器">
+      <created>1596170095111</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1596170095111</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,7 +443,8 @@
     <MESSAGE value="多线程环境下随机数生成" />
     <MESSAGE value="循环栅栏" />
     <MESSAGE value="ConcurrentHashMap 细粒度锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConcurrentHashMap 细粒度锁" />
+    <MESSAGE value="并发计数器" />
+    <option name="LAST_COMMIT_MESSAGE" value="并发计数器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">
@@ -447,24 +455,24 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="682" y="409" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1594484556179" />
-    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1596169092874">
+    <state x="547" y="171" key="CommitChangelistDialog2" timestamp="1596170094310">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1596169092874" />
+    <state x="547" y="171" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1596170094310" />
     <state x="547" y="171" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594346842035" />
     <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog" timestamp="1594347344632">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594347344632" />
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1596166140154">
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2" timestamp="1596170100971">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1596166140154" />
+    <state x="560" y="340" key="Vcs.Push.Dialog.v2/0.0.1920.1200@0.0.1920.1200" timestamp="1596170100971" />
     <state x="560" y="340" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1594606476744" />
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1596167028562">
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1596170869333">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1596167028562" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1596170869333" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1200@0.0.1920.1200" timestamp="1593654988427" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
