@@ -1,4 +1,10 @@
-多线程环境下 伪随机数生成器原理
+1.Random
+private final AtomicLong seed;
+CAS操作保证原子性,多线程下性能差
+
+
+
+2.ThreadLocalRandom
 
 Thread持有三个实例变量
 long threadLocalRandomSeed;
@@ -9,8 +15,8 @@ int threadLocalRandomSecondarySeed
 
 @Contended 禁止伪共享(缓存行性质)
 
+每个线程更新自己的种子,互不干扰
 
-ThreadLocalRandom 默认单例,线程安全,CAS操作更新线程种子
 
 
 
