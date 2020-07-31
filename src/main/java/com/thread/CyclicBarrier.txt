@@ -1,6 +1,16 @@
-count记录正在等待的线程数
+全部通过栅栏后的回调
+private final Runnable barrierCommand;
+
+栅栏的数量
+private final int parties;
+
+还没有到达栅栏的线程数
+private int count;
+
 await:利用ReentrantLock和Condition实现同步阻塞队列模式
-缺陷:同步工具类
+
+
+优点:重复使用
 
 
 

@@ -1,7 +1,8 @@
-1.CountDownLatch
+1.CountDownLatch  适合一等多的场景
   state记录未签到的线程数
   await:尝试获取共享锁(state=0),若失败,则将自己加入等待队列,轮询前驱节点
   countDown:记录签到,CAS方式修改state=state-1,如果修改之后state=0,则从头结点开始唤醒等待队列中的线程
+
 
 
 2.Semaphore
