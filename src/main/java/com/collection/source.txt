@@ -57,16 +57,15 @@ Entry<K,V> extends HashMap.Node 增加双向指针信息
     DEFAULT_CAPACITY = 16
     LOAD_FACTOR = 0.75f
 
-    volatile V val;
-    volatile Node<K,V> next;
-
     volatile Node<K,V>[] table  保存hash表
     volatile Node<K,V>[] nextTable 扩容后的Hash表
+    private transient volatile long baseCount; //统计元素个数的计数
+    private transient volatile CounterCell[] counterCells; //与哈希槽数量相同,统计每个槽的元素数量
 
    
 
     初始化:CAS设置sizeCtl=-1成功之后,启动初始化过程
-    put操作,表头存在,则锁住表头,插入到末尾;否则CAS设置表头节点
+    put操作,表头存在,则锁住表头(表头可能变化),插入到末尾;否则CAS设置表头节点
     remove操作:表头不存在直接返回;否则锁表头,删除节点
     computeIfAbsent操作:表头不存在,锁ReservationNode局部变量,CAS设置表头为ReservationNode临时节点;否则直接锁住表头
 
