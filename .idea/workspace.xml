@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/language/Thread.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/random/Random.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/language/source.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/servlet/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlet/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thread/Random.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/random/Random.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/random/Random.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596346593915</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Thread 线程控制">
+      <created>1596349596162</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1596349596162</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,7 +474,8 @@
     <MESSAGE value="ConcurrentHashMap 细粒度锁" />
     <MESSAGE value="并发计数器" />
     <MESSAGE value="记忆化搜索的特点" />
-    <option name="LAST_COMMIT_MESSAGE" value="记忆化搜索的特点" />
+    <MESSAGE value="Thread 线程控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread 线程控制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">
