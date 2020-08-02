@@ -6,7 +6,6 @@ public class Floyd {
     /**
      * dp[k][i][j]:只允许选择前k个顶点作为中间节点时,i-j的最小距离
      * dp[k][i][j]=max(dp[k-1][i][j],dp[k-1][i][k]+dp[k-1][k][j])
-     * 优化:滚动数组
      */
     public int[][] dp(int[][] nums) {
         int n = nums.length;
