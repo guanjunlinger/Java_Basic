@@ -1,0 +1,37 @@
+private volatile Interruptible blocker;  NIO中断处理程序
+
+volatile Object parkBlocker; 线程等待的锁对象
+
+private static long threadSeqNumber 线程ID生成器
+
+private long tid; 线程ID
+
+private volatile int threadStatus = 0; 线程状态
+
+private Runnable target    线程需要执行的任务
+
+private ClassLoader contextClassLoader;  线程关联的类加载器
+
+private volatile UncaughtExceptionHandler uncaughtExceptionHandler   线程终止的异常处理器
+
+private static volatile UncaughtExceptionHandler defaultUncaughtExceptionHandler  线程终止共享的异常处理器
+
+ThreadLocal.ThreadLocalMap threadLocals = null             线程本地Map
+
+ThreadLocal.ThreadLocalMap inheritableThreadLocals = null; 父线程继承的Map
+
+@sun.misc.Contended("tlr")
+long threadLocalRandomSeed;   ThreadLocalRandom类当前的种子
+
+@sun.misc.Contended("tlr")
+int threadLocalRandomProbe;   Probe hash value
+
+@sun.misc.Contended("tlr")
+int threadLocalRandomSecondarySeed; ThreadLocalRandom辅助种子
+
+
+
+
+
+
+
