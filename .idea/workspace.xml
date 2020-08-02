@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/random/Random.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/random/Random.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/collection/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/collection/source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thread/Striped64.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thread/Striped64.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596349596162</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Random 并发环境">
+      <created>1596352225449</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1596352225449</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -475,7 +482,8 @@
     <MESSAGE value="并发计数器" />
     <MESSAGE value="记忆化搜索的特点" />
     <MESSAGE value="Thread 线程控制" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread 线程控制" />
+    <MESSAGE value="Random 并发环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="Random 并发环境" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">

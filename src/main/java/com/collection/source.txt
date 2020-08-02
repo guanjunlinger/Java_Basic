@@ -59,8 +59,9 @@ Entry<K,V> extends HashMap.Node 增加双向指针信息
 
     volatile Node<K,V>[] table  保存hash表
     volatile Node<K,V>[] nextTable 扩容后的Hash表
-    private transient volatile long baseCount; //统计元素个数的计数
-    private transient volatile CounterCell[] counterCells; //与哈希槽数量相同,统计每个槽的元素数量
+    private transient volatile long baseCount; 基础计数器
+    private transient volatile CounterCell[] counterCells; 与哈希槽数量相同,统计每个槽的元素数量
+    private transient volatile int cellsBusy; 自旋锁,用于cell扩容或者初始化
 
    
 

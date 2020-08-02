@@ -2,9 +2,11 @@
 
 transient volatile Cell[] cells;   哈希槽
 transient volatile long base;      统计基数
-transient volatile int cellsBusy;  自旋锁,用于初始化Cell
+transient volatile int cellsBusy;  自旋锁,用于初始化Cell和hash扩容
 static final int NCPU = Runtime.getRuntime().availableProcessors(); 槽的阈值
 
 延迟初始化Cells数组
 哈希槽扩容是两倍
-优先CAS更新base基础,碰撞才考虑Cell累计更新
+1.CAS更新base基础,失败转2
+2.当前线程探针哈希值找到Cell槽,更新计数器,若失败转3
+3.ThreadLocalRandom.advanceProbe修改线程探针哈希值,转2
