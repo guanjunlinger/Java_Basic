@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classloader/ClassLoader.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/classloader/MyClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/language/CustomFinalize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/language/CustomFinalizeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/language/ReferenceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/dp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/dp.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/algorithm/dp/Floyd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/algorithm/dp/Floyd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/language/CustomFinalize.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/servlet/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/servlet/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/dp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/dp.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/language/CustomFinalizeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/language/ReferenceTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="MyClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.classloader.MyClassLoader" />
       <module name="dp" />
@@ -112,8 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.servlet.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.MyClassLoader" />
       </list>
     </recent_temporary>
@@ -157,7 +157,9 @@
       <workItem from="1596120139777" duration="832000" />
       <workItem from="1596157715584" duration="10053000" />
       <workItem from="1596426399543" duration="409000" />
-      <workItem from="1596426823246" duration="3479000" />
+      <workItem from="1596426823246" duration="4123000" />
+      <workItem from="1596544269717" duration="1494000" />
+      <workItem from="1596597897925" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -411,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596352907700</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="类加载机器">
+      <created>1596505404490</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1596505404490</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -502,7 +511,8 @@
     <MESSAGE value="Thread 线程控制" />
     <MESSAGE value="Random 并发环境" />
     <MESSAGE value="线程探针和种子的应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程探针和种子的应用" />
+    <MESSAGE value="类加载机器" />
+    <option name="LAST_COMMIT_MESSAGE" value="类加载机器" />
   </component>
   <component name="WindowStateProjectService">
     <state x="448" y="181" key="#Project_Structure" timestamp="1594260153767">
