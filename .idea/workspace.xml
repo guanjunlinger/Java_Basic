@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a72ae72-435c-4138-bf57-aad26cd24846" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jvm/concurrent.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/classloader/ClassLoader.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jvm/ClassLoader.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/classloader/MyClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jvm/MyClassLoader.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +88,11 @@
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="MyClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.classloader.MyClassLoader" />
+      <option name="MAIN_CLASS_NAME" value="com.jvm.MyClassLoader" />
       <module name="dp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.classloader.*" />
+          <option name="PATTERN" value="com.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,7 +161,7 @@
       <workItem from="1596426399543" duration="409000" />
       <workItem from="1596426823246" duration="4123000" />
       <workItem from="1596544269717" duration="1494000" />
-      <workItem from="1596597897925" duration="125000" />
+      <workItem from="1596597897925" duration="2024000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1586830991914</created>
@@ -420,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596505404490</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="类加载机器">
+      <created>1596598591476</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1596598591476</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
