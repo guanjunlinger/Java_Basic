@@ -1,7 +1,5 @@
 package com;
 
-import java.util.Scanner;
-
 public class Solution {
 
 
@@ -30,15 +28,16 @@ public class Solution {
         return dp[d - 1][n - 1];
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int m = scanner.nextInt();
-        int n = scanner.nextInt();
-        int[] data = new int[n];
-        for (int i = 0; i < n; i++)
-            data[i] = scanner.nextInt();
-        Solution solution = new Solution();
-        System.out.println(solution.minDifficulty(data, m));
+    public static void main(String[] args) throws InterruptedException {
+         Thread thread = new Thread(()->{
+             while (true){
+                 int a=1;
+                 System.out.println(a);
+             }
+         });
+         thread.start();
+         thread.join();
+
 
     }
 
