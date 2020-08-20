@@ -29,16 +29,14 @@ public class Solution {
     }
 
     public static void main(String[] args) throws InterruptedException {
-         Thread thread = new Thread(()->{
-             while (true){
-                 int a=1;
-                 System.out.println(a);
-             }
-         });
-         thread.start();
-         thread.join();
-
-
+        Thread thread = new Thread(() -> {
+            while (true) {
+                Object obj = new Object();
+                System.out.println(obj.hashCode() + "," + System.identityHashCode(obj));
+            }
+        });
+        thread.start();
+        thread.join();
     }
 
 }
