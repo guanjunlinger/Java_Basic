@@ -1,0 +1,18 @@
+
+唤醒线程参与调度
+public static void unpark(Thread thread)
+         UNSAFE.unpark(thread);
+
+禁止线程参与调度
+public static void park(Object blocker)
+                UNSAFE.park(false, 0L);
+
+线程在deadline之前禁止调度
+public static void parkUntil(Object blocker, long deadline)
+               UNSAFE.park(true, deadline);
+
+设置线程等待的锁对象
+private static void setBlocker(Thread t, Object arg)
+
+获取线程等待的锁对象
+public static Object getBlocker(Thread t)
