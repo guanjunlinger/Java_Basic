@@ -1,4 +1,4 @@
-package multithread.lock;
+package thread.lock;
 
 import com.thread.lock.*;
 import com.thread.lock.queuelock.CLHLock;

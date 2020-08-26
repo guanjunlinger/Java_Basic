@@ -25,15 +25,16 @@ public class ThreadTest {
             System.out.println(Thread.holdsLock(thread));
 
         }
-        Thread.dumpStack();
     }
 
     @Test
     public void testUncaughtExceptionHandler() {
-        Thread.currentThread().setUncaughtExceptionHandler((thread, ex) -> {
-            System.out.println(thread.getName() + ":" + ex);
+        Thread thread1 = new Thread(() -> {
+            throw new RuntimeException("1222");
         });
+        thread1.setUncaughtExceptionHandler((thread, ex) ->
+                System.out.println(thread.getName() + ":" + ex));
+        thread1.start();
 
-        throw new RuntimeException("1222");
     }
 }
