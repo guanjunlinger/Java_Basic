@@ -1,4 +1,4 @@
-package com.io.externalizable;
+package com.io.serializable;
 
 import lombok.Data;
 

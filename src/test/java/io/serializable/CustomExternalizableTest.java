@@ -1,6 +1,6 @@
-package io.externalizable;
+package io.serializable;
 
-import com.io.externalizable.CustomSerializable;
+import com.io.serializable.CustomSerializable;
 import org.testng.annotations.Test;
 
 import java.io.*;

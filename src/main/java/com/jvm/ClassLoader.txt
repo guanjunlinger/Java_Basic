@@ -1,8 +1,0 @@
-private final ClassLoader parent;  父加载器
-
-
-Class<?> loadClass(String name, boolean resolve)  定义双亲委派模型的骨架
-
-AppClassLoader的父加载器是ExtClassLoader
-自定义ClassLoader的父加载器默认是AppClassLoader
-

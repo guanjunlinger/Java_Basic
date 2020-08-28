@@ -8,10 +8,18 @@ import java.nio.file.Files;
  * @author guanjun
  */
 public class MyClassLoader extends ClassLoader {
+    /**
+     * 默认父类加载器是Bootstrap ClassLoader
+     */
     public MyClassLoader() {
 
     }
 
+    /**
+     * 手动指定父加载器
+     *
+     * @param classLoader
+     */
     public MyClassLoader(ClassLoader classLoader) {
         super(classLoader);
     }
@@ -20,7 +28,7 @@ public class MyClassLoader extends ClassLoader {
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         Class<?> clazz = null;
         String path = name.replace('.', '/').concat(".class");
-        String dir = "/Users/guanjun/gitrepository/dp/target/classes/";
+        String dir = "D:/gitRepository/JAVA_BASIC/target/classes/";
         File classFile = new File(dir + path);
         if (classFile.exists()) {
             try {
