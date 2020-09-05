@@ -1,6 +1,6 @@
 package io.serializable;
 
-import com.io.serializable.SubType;
+import com.io.serializable.jdk.SubType;
 import org.testng.annotations.Test;
 
 

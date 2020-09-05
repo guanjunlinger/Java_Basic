@@ -1,4 +1,4 @@
-package com.io.serializable;
+package com.io.serializable.jdk;
 
 import lombok.Data;
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.mycat">
+    <sql id="columns">
+    id,name,num
+    </sql>
+    <select id="getStudentById" resultType="com.mycat.Student" parameterType="int">
+        select <include refid ="columns"/>
+         from student where id = #{id}
+    </select>
+    <select id="getStudentByName" resultType="com.mycat.Student" parameterType="String">
+        select <include refid ="columns"/>
+        from student where name = #{name}
+    </select>
+
+</mapper>
